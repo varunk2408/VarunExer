@@ -1,0 +1,112 @@
+p.wrap {
+    width: 100%;
+    word-wrap: break-word;
+	text-align:left;
+}
+#box1{
+	width:100%;
+	height:120px;
+	background:orange;
+	float:left;
+	margin-bottom:10px;
+}
+#box2{
+	position:relative;
+	width:10%;
+	height:120px;
+	background:red;
+	float:left;
+	margin-right:1%;
+	margin-bottom:10px;
+}
+#box3{
+	position:relative;
+	width:78%;
+	height:105px;
+	background:#85C1E9;
+	float:left;
+	margin-right:1%;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+#box4{
+	position:relative;
+	width:10%;
+	height:120px;
+	background:black;
+	float:right;
+	margin-bottom:10px;
+}
+#box5{
+	position:relative;
+	width:90%;
+	height:120px;
+	background:#82E0AA;
+	float:left;
+	margin-left:70px;
+	margin-bottom:10px;
+}
+#box6{
+	position:relative;
+	width:100%;
+	height:120px;
+	background:yellow;
+	float:left;
+	margin-bottom:10px;
+}
+#box7{
+	position:absolute;
+	width:7%;
+	height:410px;
+	background:#76448A;
+	float:left;
+	margin-left:18%;
+	margin-top:125px;
+	margin-bottom:10px;
+}
+#box8{
+	position:relative;
+	width:10%;
+	height:100px;
+	background:#5D6D7E;
+	float:left;
+	margin-left:7%;
+	margin-right:100px
+	margin-bottom:10px;
+}
+#box9{
+	position:relative;
+	width:73%;
+	height:100px;
+	background:#A569BD;
+	float:left;
+	margin-left:10%;
+	margin-bottom:10px;
+}
+.zindex{
+	z-index:1;
+}
+#overlay {
+	margin-top:130px;
+	left: -400px;
+    width: 400px;
+    height: 400px;
+	text-align:center;
+    background: white;
+    position: absolute;
+	animation: myanimation 7s;
+	animation-iteration-count: 1;
+    animation-delay: 3s;
+	z-index: 9999;
+}
+
+@-webkit-keyframes myanimation {
+    from {left: 100%;}
+    to {left: 35%;}
+}
+
+@keyframes myanimation {
+    from {left: 100%;}
+    to {left: 35%;}
+}
+
